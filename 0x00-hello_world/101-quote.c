@@ -2,8 +2,8 @@
 #include<unistd.h>
 
 /**
- * *main - prints exactly "and that piece of art is useful"
- *description: Prints "and that piece of art
+ * *main - prints to string
+ *description: Prints "and that piece of art is useful
  *Return: 1
  */
 int main(void)
