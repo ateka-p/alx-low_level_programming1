@@ -30,7 +30,7 @@ void print_buffer(char *b, int size)
 			printf(" ");
 			for (l = j; l < j + 10; l++)
 			{
-				if (1 >= size)
+				if (l >= size)
 					break;
 				if (*(b + l) < 32 || *(b + l) > 126)
 					printf("%c", '.');
