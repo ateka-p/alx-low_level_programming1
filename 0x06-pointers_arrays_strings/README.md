@@ -1,1 +1,1 @@
-Pointers assignment
+This is a pointers assignment
