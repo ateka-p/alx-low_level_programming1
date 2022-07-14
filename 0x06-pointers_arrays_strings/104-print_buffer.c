@@ -28,9 +28,9 @@ void print_buffer(char *b, int size)
 					printf(" ");
 			}
 			printf(" ");
-			for (l = j; l < j + 10; l++)
+			for (1 = j; 1 < j + 10; 1++)
 			{
-				if (l >= size)
+				if (1 >= size)
 					break;
 				if (*(b + 1) < 32 || *(b + 1) > 126)
 					printf("%c", '.');
